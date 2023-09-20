@@ -1,4 +1,5 @@
 <?php
+//for loop
 function printEvenNumbersFor($start, $end, $step) {
     for ($i = $start; $i <= $end; $i += $step) {
         echo $i . " "; 
@@ -10,6 +11,7 @@ printEvenNumbersFor(2, 20, 2);
 
 echo"<br/>";
 
+//while loop
 function printEvenNumbersWhile($start, $end, $step) {
     while ($start <= $end) {
         echo $start . " "; 
@@ -23,6 +25,7 @@ printEvenNumbersWhile(2, 20, 2);
 echo"<br/>";
 
 
+//do while loop
 function printEvenNumbersDoWhile($start, $end, $step) {
     do {
         echo $start . " "; 
